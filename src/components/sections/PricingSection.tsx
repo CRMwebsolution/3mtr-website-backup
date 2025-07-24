@@ -20,7 +20,7 @@ const PRICING = {
 };
 
 const SECURITY_DEPOSIT = 150;
-const CARD_FEE_RATE = 0.03;
+const CARD_FEE_RATE = 0.035;
 
 export default function PricingSection() {
   const [selectedTrailer, setSelectedTrailer] = useState('');
@@ -151,7 +151,7 @@ export default function PricingSection() {
                     </p>
                   )}
                   <p className="text-gray-600 dark:text-gray-300">
-                    Card Fee (3%): ${cardFee}
+                    Card Fee (3.5%): ${cardFee}
                   </p>
                   <p className="text-xl font-bold text-[#003366] dark:text-[#4d8cc8]">
                     Total Due: ${(totalDue + cardFee).toFixed(2)}
