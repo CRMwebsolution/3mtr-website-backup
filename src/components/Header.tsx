@@ -59,14 +59,14 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-4">
-              <Link to="/" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">Home</Link>
-              <a href="/#about" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">About</a>
-              <a href="/#trailers" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">Trailers</a>
-              <Link to="/availability" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">Availability</Link>
-              <a href="/#pricing" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">Pricing</a>
-              <Link to="/blog" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">Blog</Link>
-              <a href="/#contact" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]">Contact</a>
-              <Link to="/booking" className="text-[#FF6600] font-semibold hover:text-[#ff8533]">
+              <Link to="/" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>Home</Link>
+              <a href="/#about" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>About</a>
+              <a href="/#trailers" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>Trailers</a>
+              <Link to="/availability" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>Availability</Link>
+              <a href="/#pricing" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>Pricing</a>
+              <Link to="/blog" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>Blog</Link>
+              <a href="/#contact" className="text-gray-700 dark:text-gray-300 hover:text-[#FF6600] dark:hover:text-[#FF6600]" onClick={() => setIsMenuOpen(false)}>Contact</a>
+              <Link to="/booking" className="text-[#FF6600] font-semibold hover:text-[#ff8533]" onClick={() => setIsMenuOpen(false)}>
                 Book Now
               </Link>
             </div>
