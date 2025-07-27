@@ -33,12 +33,18 @@ export default function Header() {
 
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
-            <Phone className="text-[#FF6600]" />
-            <span className="text-[#003366] dark:text-[#4d8cc8] font-semibold">Contact Us: (252) 622-7921</span>
+            <div className="flex items-center space-x-2">
+              <Phone className="text-[#FF6600]" size={16} />
+              <span className="text-[#003366] dark:text-[#4d8cc8] font-semibold text-sm">Contact Us: (252) 622-7921</span>
+            </div>
           </div>
 
           <div className="flex items-center md:hidden">
             <ThemeToggle />
+            <div className="flex items-center space-x-1 ml-2">
+              <Phone className="text-[#FF6600]" size={14} />
+              <span className="text-[#003366] dark:text-[#4d8cc8] font-semibold text-xs">(252) 622-7921</span>
+            </div>
             <button 
               className="ml-2"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
