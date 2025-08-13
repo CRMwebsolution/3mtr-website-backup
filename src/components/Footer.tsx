@@ -6,7 +6,7 @@ export default function Footer() {
       <p>
         Made by{' '}
         <a 
-          href="https://stayautomated.com" 
+          href="https://southernautomate.com/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-[#FF6600] hover:text-[#ff8533] font-medium"
