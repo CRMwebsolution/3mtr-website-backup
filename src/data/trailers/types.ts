@@ -5,5 +5,5 @@ export interface TrailerSpec {
   specs: string[];
   image: string;
   price: string;
-  forSale?: boolean;
+  salePrice?: string;
 }

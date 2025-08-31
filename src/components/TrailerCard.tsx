@@ -12,7 +12,7 @@ export default function TrailerCard({
   specs, 
   image, 
   price,
-  forSale = false
+  salePrice
 }: TrailerCardProps) {
   const navigate = useNavigate();
 
@@ -38,9 +38,9 @@ export default function TrailerCard({
           className="w-full h-full object-cover"
           loading="lazy"
         />
-        {forSale && (
+        {salePrice && (
           <div className="absolute top-0 left-0 w-full bg-yellow-400 text-black text-center py-1 z-10 font-bold text-lg shadow-md">
-            Buy outright for $7,750, firm
+            Buy outright for {salePrice}
           </div>
         )}
       </div>

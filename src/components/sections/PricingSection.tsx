@@ -58,8 +58,8 @@ export default function PricingSection() {
     setShowQuote(true);
   };
 
-  // Filter out trailers that are for sale
-  const rentalTrailers = trailers.filter(trailer => !trailer.forSale);
+  // All trailers are available for rent
+  const rentalTrailers = trailers;
 
   // Calculate values for the quote box
   let totalDue = 0;
