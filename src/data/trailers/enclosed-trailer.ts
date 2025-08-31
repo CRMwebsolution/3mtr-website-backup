@@ -2,7 +2,7 @@ import type { TrailerSpec } from './types';
 
 export const enclosedTrailer: TrailerSpec = {
   title: "Enclosed 8.5x20 Trailer",
-  description: "Professional-grade enclosed trailer perfect for secure transport of furniture, equipment, and sensitive items."  "Buy outright for $7,750 firm",
+  description: "Professional-grade enclosed trailer perfect for secure transport of furniture, equipment, and sensitive items.",
   features: [
     "2-5/16\" ball required",
     "9,990 pound enclosed trailer (6,790 pound payload capacity)",
