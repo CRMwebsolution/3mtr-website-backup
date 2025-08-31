@@ -24,5 +24,5 @@ export const utilityTrailer: TrailerSpec = {
   ],
   image: "https://fhyzsisluszpfhlngiyb.supabase.co/storage/v1/object/sign/trailer-images/7X14/7x14%20front.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0cmFpbGVyLWltYWdlcy83WDE0Lzd4MTQgZnJvbnQuanBnIiwiaWF0IjoxNzQzNzI5NjU0LCJleHAiOjIzNzQ0NDk2NTR9.tQ8MpnYivnrO6C0E351_DHRhjzdRE718NnAaPCusac4",
   price: "$40/day",
-  salePrice: "$2,500"
+  salePrice: "$2,500, firm"
 };
