@@ -39,7 +39,7 @@ export default function TrailerCard({
           loading="lazy"
         />
         {salePrice && (
-          <div className="absolute top-0 left-0 w-full bg-yellow-400 text-black text-center py-0.5 z-10 font-bold text-lg shadow-md">
+          <div className="absolute top-0 left-0 w-full bg-yellow-400 text-black text-center py-0 z-10 font-bold text-lg shadow-md">
             Buy outright for {salePrice}
           </div>
         )}
