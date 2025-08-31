@@ -40,7 +40,7 @@ export default function TrailerCard({
         />
         {forSale && (
           <div className="absolute top-0 left-0 w-full bg-red-600 text-white text-center py-2 transform rotate-0 z-10 font-bold text-lg shadow-md">
-            FOR SALE - $3,500
+            Buy outright for $7,750, firm
           </div>
         )}
       </div>
@@ -95,7 +95,7 @@ export default function TrailerCard({
                 className="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
                 aria-label={`Contact for purchase of ${title}`}
               >
-                Contact For Purchase
+                Contact to Purchase
               </button>
             </div>
           )}

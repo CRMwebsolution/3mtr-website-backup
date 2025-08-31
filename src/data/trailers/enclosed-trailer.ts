@@ -25,5 +25,6 @@ export const enclosedTrailer: TrailerSpec = {
     "Winch Capacity: 12,000 lbs"
   ],
   image: "https://fhyzsisluszpfhlngiyb.supabase.co/storage/v1/object/sign/trailer-images/Enclosed/enclosed-front.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0cmFpbGVyLWltYWdlcy9FbmNsb3NlZC9lbmNsb3NlZC1mcm9udC5qcGciLCJpYXQiOjE3NDM3Mjg5MjEsImV4cCI6MjM3NDQ0ODkyMX0.Rf5rIV892JVyFvLeDgmTHHIyagKVA7DW_OqOxnJM_nc",
-  price: "$100/day"
+  price: "$100/day",
+  forSale: true
 };
