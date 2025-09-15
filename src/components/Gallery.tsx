@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { galleryImages } from '../data/gallery';
 import Image from './ui/Image';
+import { getPublicUrl } from '../utils/supabaseStorage';
 
 export default function Gallery() {
   const [isMobile, setIsMobile] = useState(false);
@@ -62,7 +63,7 @@ export default function Gallery() {
               }`}
             >
               <Image
-                src={image.src}
+                src={getPublicUrl('trailer-images', image.src)}
                 alt={image.alt}
                 width={400}
                 height={300}
