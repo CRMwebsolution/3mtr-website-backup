@@ -33,11 +33,11 @@ export default function Gallery() {
   // Mobile display: one image from each trailer type
   const mobileDisplayImages = [
     // Enclosed trailer image
-    galleryImages['Enclosed 8.5x20 Trailer']?.[0],
+    galleryImages['Enclosed 8.5x20 Trailer']?.[Math.floor(Math.random() * galleryImages['Enclosed 8.5x20 Trailer'].length)],
     // Car trailer image
-    galleryImages['10K Car Trailer']?.[0],
+    galleryImages['10K Car Trailer']?.[Math.floor(Math.random() * galleryImages['10K Car Trailer'].length)],
     // Utility trailer image
-    galleryImages['7X14 Utility Trailer']?.[0]
+    galleryImages['7X14 Utility Trailer']?.[Math.floor(Math.random() * galleryImages['7X14 Utility Trailer'].length)]
   ].filter(Boolean); // Remove any undefined entries
 
   // Choose which images to display
