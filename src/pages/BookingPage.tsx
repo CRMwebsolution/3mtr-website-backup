@@ -417,7 +417,7 @@ export default function BookingPage() {
               <div>
                 <label className="flex items-center text-sm font-medium text-gray-700 mb-2">
                   <Truck className="w-4 h-4 mr-2 text-[#FF6600]" />
-                  Trailer *
+                  Trailer * (if it's not listed, it's not available of those dates)
                 </label>
                 <select
                   value={formData.trailer_type}
